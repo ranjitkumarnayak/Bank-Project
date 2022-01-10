@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #one{
+        /* text-shadow:2px 4px coral; */
+        color: red;
+        animation: ourframe ;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes ourframe{
+        0%{color:red}
+        50%{color:orange}
+        100%{color: greenyellow;}
+       
+
+    }
+    
+        table,
+        tr,
+        th,
+        td {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+ 
+#bc:hover{
+    background-color: burlywood;
+    color: black;
+}
+#bv{
+    background-image:url(p9.jpg);
+    background-repeat: inherit;
+    background-size: 1340px 950px;
+    /* min-height: 950px; */
+  
+}
+        
+</style>
+<body id="bv">
+   
+        
+      <img style src="p6.png">
+      <h1 style="font-family:Arial, Helvetica, sans-serif;margin-left: 70px;margin-top: -50px;" id="one">ABC BANK</h1>
+    
+      <a id="bc" style="margin-left: 700px;padding:10px 20px 10px 20px;text-decoration: none;border-radius: 12px;color:black" href="Page22.html">Home</a>
+        <a id="bc"style="padding:10px 20px 10px 20px;text-decoration: none;border-radius: 12px;color:black" href="Aboutus.html">About Us</a> 
+  <a id="bc"style="padding:10px 20px 10px 20px;text-decoration: none;border-radius: 12px;color:black" href="https://sumeetbazaar.com/gallery/">Our Products</a>
+  <a id="bc"style="padding:10px 20px 10px 20px;grey;text-decoration: none;border-radius: 12px;color:black" href="Contact%20US.html">Contact</a>
+  <a id="bc"style="padding:10px 20px 10px 20px;grey;text-decoration: none;border-radius: 12px;color:black" href="Page22.html">Log out</a>
+       
+        
+<br><br>
+<marquee style="color: red;" direction="left" height="50px" scrollamount="12"><h2>Please note our new HeadOffice address-BTM 2nd Stage ground Floor,Bangalore.</h2></marquee>
+  <br> <hr>
+       <br><br> 
+       <nav>
+      <center>  <h2>Welcome to ABC Bank PayNow</h2></center>
+        <br>
+    </nav>
+    <section>
+        <fieldset style="height: 500px;margin-left: 200px;margin-right: 200px ;font-size:larger;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color:black;">
+            <legend>Details</legend>   
+            
+            <br>
+             
+             Deposit:<input type="radio"  value="Deposit"name="Transaction" id="two">
+             Withdrawl:<input type="radio" value="Withdrawl"name="Transaction" id="three">
+             <br><br>
+             <label for="Fname">Account Name:</label><br>
+             <input type="text" id="four"><br><br>
+             
+                 Account No:   <br> 
+                  <input type="text" id="six"><br><br>
+                 IFSC code:  <br><input type="text" id="eight"><br><br>
+                 Description:<br><input type="text" id="ten" ><br><br><br>
+             <label for="Lname">Available Balance:</label>
+             
+             <input type="text" id="five">
+             Amount:<input type="text" id="nine">
+             <br><br>
+             <br>
+             <button style="background-color:skyblue;width: 80px; border-radius:12px;"id="seven" onclick="validate()">submit </button><span style="color: red;" id="baby"></span>
+          </fieldset>
+    </section>
+    <footer>
+            <p style="font-family: fantasy; letter-spacing: 3px;"> Account Name: <span id="accnam"></span></p>       
+            <p style="font-family: fantasy; letter-spacing: 3px;"> Account No: <span id="accno"></span></p>
+        <p style="font-family: fantasy; letter-spacing: 3px;"> Current Balance: <span id="availbal"></span></p>
+    
+
+    
+    <table style="float: left;"> 
+        
+            <th>Credit</th>
+            
+            <th>Description</th>
+            <th>Available Amount</th>
+        
+    </table>
+    <table style="float: right;margin-right: 260px;">
+        
+            
+            <th>Debit</th>
+            <th>Description</th>
+            <th>Available Amount</th>
+        
+    </table>
+
+    </footer>
+    <script src="Project1.js"></script>
+    
+</body>
+
+</html>

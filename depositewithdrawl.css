@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+#img{
+    background-image: url("bankbuilding5.jfif");
+    width: 100%;
+    height: 100vh;
+}
+#header{
+    width: 1536px;
+    height: 150px;
+    background-color: orange;
+}
+#logo{
+    padding-left: 20px;
+    width: 25%;
+    
+}
+
+#btn1{
+    padding-top: -40px;
+    font-size: 25px;
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: orangered;
+    border-style: none;
+    float: right;
+    
+}
+#btn2{
+    font-size: 25px;
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: orangered;
+    border-style: none;
+    float: right;
+}
+#btn{
+    margin:-80px 20px 0 0;
+}
+#nav{
+    width: 1536px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .5);
+    color: orangered;
+}
+#nav h3{
+    font-size: 40px;
+}
+#mode{
+float: right;
+margin: -90px 800px 0 0;
+}
+#mode input{
+    font-size: 40px;
+}
+#text{
+    margin: 0 0 0 20px;
+}
+#amount{
+    font-size: 40px;
+    margin: 30px 0 0 20px;
+}
+#amount1{
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background: none;
+}
+#description{
+    font-size: 40px;
+    margin: -40px 0 0 600px;
+}
+#description1{
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background: none;
+}
+#submit{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 100px 0 0 700px;
+}
+#submit1{
+    display: block;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, blue,green);
+    font-family: sans-serif;
+}
+#submit1:hover{
+    background-image: linear-gradient(to right, green,blue);   
+}
+#display{
+    float: left;
+    width: fit-content;
+    font-size: 40px;
+    font-family: sans-serif;
+    color:rgba(0,0,0,.8);
+    margin: 20px 0 0 200px;
+}
+#update{
+    font-size: 20px;
+    color: blue;
+    margin: -20px 0 0 300px;
+}
+ #table{
+     display: block;
+     width: 500px;
+     height:100px;
+     /* float: right; */
+     font-size: 30px;
+ }   
+ #all{
+     display: inline-flex;
+ }

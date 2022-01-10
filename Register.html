@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration Page</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body style="background-color:orange;">
+<div id="container">
+    <div id="img">
+        <img src="banklogo1.png" alt="" height="500px" width="500px">
+    </div>
+    <div id="login-container">
+        <form onsubmit="return validate1()" action="FrontPageBank.html">
+            <img src="registration.svg" id="regimg" alt="">
+            <h2>WELCOME</h2>
+            <div id="input">
+            Name:<input type="text" id="name" placeholder="UserName" ><span id="namemsg" ></span><hr>
+            Email: <input type="text" id="email" placeholder="Email id"><span id="emailmsg" ></span><hr>
+            Mobile: <input type="text" id="mobile" placeholder="Mobile Number"><span id="mobilemsg"></span><hr>
+            City: <input type="text" id="city" placeholder="Present City"><span id="citymsg" ></span><hr>
+            Password: <input type="password" id="password" placeholder="Password"><span id="passwordmsg" ></span><hr>
+            ConfirmPassword: <input type="password" id="ConfirmPassword" placeholder="Confirm Password"><span id="confirmpasswordmsg" ></span><hr>
+        </div>
+            <input type="submit" value="REGISTER" id="btn">
+        </form>
+    </div> 
+</div>    
+</body>
+<script src="Register.js"></script>
+</html>
